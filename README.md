@@ -94,3 +94,9 @@ Based on the findings from the email, domain, and URL analysis, the incident is 
 - Threat intelligence
 - DNS analysis
 - SOC incident response
+
+## Author
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Joshua_Mayowa-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/joshua-mayowa-773bb7375)
+
+[![X](https://img.shields.io/badge/X-sudomayor-black?style=for-the-badge&logo=x)](https://x.com/sudomayor)
