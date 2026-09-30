@@ -13,7 +13,7 @@ The email claims that unusual login activity was detected and urges the recipien
 
 The following screenshot shows the suspicious email analyzed during the investigation.
 
-![Original Phishing Email](screenshots/original_phishing_email.png)
+![Original Phishing Email](Screenshots/original_phishing_email.png)
 
 
 ## Investigation Objectives
@@ -60,15 +60,15 @@ The embedded URL was analyzed safely without directly clicking or visiting the l
 
 The shortened URL was first analyzed using CheckShortURL to examine the URL and its redirection behavior.
 
-![CheckShortURL Analysis](screenshots/check_short_url.png)
+![CheckShortURL Analysis](Screenshots/check_short_url.png)
 
 VirusTotal identified **4 security vendors out of 92** that flagged the URL. The detections included **1 Malicious** classification and **3 Phishing** classifications.
 
-![VirusTotal URL Analysis](screenshots/virustotal_url_analysis.png)
+![VirusTotal URL Analysis](Screenshots/virustotal_url_analysis.png)
 
 URLScan was also used to investigate the URL and associated domain infrastructure.
 
-![URLScan Analysis](screenshots/urlscan_analysis.png)
+![URLScan Analysis](Screenshots/urlscan_analysis.png)
 
 Based on the available URL reputation and analysis results, the embedded link is considered **suspicious and potentially malicious**.
 
