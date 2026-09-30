@@ -8,6 +8,14 @@ This project documents a SOC-style investigation of a suspected phishing email c
 
 The email claims that unusual login activity was detected and urges the recipient to verify their identity within 24 hours.
 
+
+## Original Phishing Email
+
+The following screenshot shows the suspicious email analyzed during the investigation.
+
+![Original Phishing Email](screenshots/original_phishing_email.png)
+
+
 ## Investigation Objectives
 
 - Identify Indicators of Compromise (IOCs)
@@ -94,6 +102,18 @@ Based on the findings from the email, domain, and URL analysis, the incident is 
 - Threat intelligence
 - DNS analysis
 - SOC incident response
+
+## Repository Structure
+```
+phishing-email-investigation/
+├── README.md
+└── screenshots/
+    ├── original_phishing_email.png
+    ├── check_short_url.png
+    ├── virustotal_url_analysis.png
+    └── urlscan_analysis.png
+```
+
 
 ## Author
 
